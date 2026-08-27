@@ -1,0 +1,14 @@
+{
+  "status": "Post hoc submission-strengthening analyses. Controls and bins were fixed before these analyses were run; no external sample or endpoint threshold was selected by performance.",
+  "strict_external_n": 598,
+  "anchor_permutations": 200,
+  "document_bootstraps": 5000,
+  "uncertainty_calibration": "Five-fold scaffold cross-conformal analysis using exact development observations only.",
+  "reversal_bins": [
+    "< -0.30",
+    "-0.30 to -0.10",
+    "-0.10 to 0.10",
+    "> 0.10 log10 CLint"
+  ],
+  "random_seed": 20260819
+}

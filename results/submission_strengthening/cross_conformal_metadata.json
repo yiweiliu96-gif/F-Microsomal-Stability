@@ -1,0 +1,11 @@
+{
+  "calibration_n_exact": 2110,
+  "external_n": 598,
+  "width_absolute_error_spearman": 0.03117570328975918,
+  "point_metrics": {
+    "rmse": 0.6114667452744154,
+    "mae": 0.4288440409052663,
+    "spearman": 0.7728884203030539,
+    "low_clearance_auc": 0.8640893470790376
+  }
+}

@@ -1,0 +1,13 @@
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.15.3
+scikit-learn==1.5.2
+rdkit==2022.9.5
+lightgbm==4.7.0
+xgboost==3.2.0
+catboost==1.2.10
+joblib>=1.5
+matplotlib>=3.10
+torch==2.2.2
+torch-geometric==2.5.3
+
