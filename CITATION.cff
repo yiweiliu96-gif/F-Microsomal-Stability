@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript and this archived release."
+title: "Assay-matched fluorination effects and RLM-anchored HLM prediction"
+type: software
+version: 1.0.0
+date-released: 2026-08-26
+authors:
+  - family-names: Liu
+    given-names: Yiwei
+  - family-names: Wang
+    given-names: Jiaqi
+  - family-names: Chen
+    given-names: Yanjing
+  - family-names: Wu
+    given-names: Yichu
+  - family-names: Lian
+    given-names: Xiang
+  - family-names: Wu
+    given-names: Fanhong
+  - family-names: Wang
+    given-names: Dong
+  - family-names: Wu
+    given-names: Jingjing
+license: MIT
+repository-code: "https://github.com/yiweiliu96-gif/F-Microsomal-Stability"
+repository-artifact: "https://github.com/yiweiliu96-gif/F-Microsomal-Stability/tree/v1.0.0"
+keywords:
+  - microsomal intrinsic clearance
+  - fluorinated compounds
+  - matched molecular pairs
+  - cross-species prediction
+  - residual learning
+  - interpretable QSAR

@@ -1,0 +1,11 @@
+analysis_set,scope,model,prediction_column,n,n_documents,rmse,mae,spearman,low_clearance_auc
+strict_total_intrinsic,fluorinated,structure-only,structure_LGBM__general,610,176,1.0832183558615394,0.7424218467655895,0.09647833355486991,0.5912014796031126
+strict_total_intrinsic,fluorinated,RLM-only linear,measured_RLM_ridge,610,176,0.7341545492719338,0.5556421126630464,0.7778076347499242,0.8617583082273842
+strict_total_intrinsic,fluorinated,RLM constant offset,RLM_anchor_constant_offset,610,176,0.817855072489967,0.6508587401055133,0.7778076347499242,0.8617583082273842
+strict_total_intrinsic,fluorinated,RLM-anchored residual,RLM_anchor_residual_LGBM__general,610,176,0.6196563973642795,0.4389400960866376,0.7831352270095013,0.870802265933069
+strict_total_intrinsic,fluorinated,RLM-anchored residual + F descriptors,RLM_anchor_residual_LGBM__fluorine_augmented,610,176,0.6260576201090046,0.44541034954478065,0.7781693456830907,0.8693947818399655
+strict_total_no_unit_or_stereo_flags,fluorinated,structure-only,structure_LGBM__general,598,174,1.0028774049091744,0.6979360807560708,0.11969624842842096,0.6038782523318607
+strict_total_no_unit_or_stereo_flags,fluorinated,RLM-only linear,measured_RLM_ridge,598,174,0.7050310239948684,0.535916931121074,0.7656393424104501,0.854264850270005
+strict_total_no_unit_or_stereo_flags,fluorinated,RLM constant offset,RLM_anchor_constant_offset,598,174,0.8177791717009032,0.6496940663249496,0.7656393424104501,0.854264850270005
+strict_total_no_unit_or_stereo_flags,fluorinated,RLM-anchored residual,RLM_anchor_residual_LGBM__general,598,174,0.615317217349461,0.4334104252957581,0.7713391012237488,0.8638193421698577
+strict_total_no_unit_or_stereo_flags,fluorinated,RLM-anchored residual + F descriptors,RLM_anchor_residual_LGBM__fluorine_augmented,598,174,0.6212165111665832,0.43995034726015225,0.7660842726328996,0.862346588119784

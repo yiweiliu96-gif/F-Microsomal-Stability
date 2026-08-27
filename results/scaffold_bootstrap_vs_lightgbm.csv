@@ -1,0 +1,7 @@
+baseline,candidate,scope,metric,delta_candidate_minus_baseline,ci95_low,ci95_high,two_sided_p,bootstrap_unit,bootstrap_iterations
+LightGBM,ExtraTrees,fluorinated,interval_rmse,-0.0008955566722256281,-0.010587614064825352,0.008745627509499938,0.8762,Murcko scaffold,10000
+LightGBM,XGBoost,fluorinated,interval_rmse,0.0003856620671987554,-0.0034461807035621,0.0043378575124569186,0.8384,Murcko scaffold,10000
+LightGBM,RandomForest,fluorinated,interval_rmse,0.0004223442075628747,-0.008124793830535946,0.00869411037201162,0.9286,Murcko scaffold,10000
+LightGBM,CatBoost,fluorinated,interval_rmse,0.0073498089220669915,-0.0013014582402293181,0.016171901986052655,0.098,Murcko scaffold,10000
+LightGBM,descriptor_MLP,fluorinated,interval_rmse,0.07087071832052472,0.0495832747942167,0.09144637142667278,0.0,Murcko scaffold,10000
+LightGBM,Ridge,fluorinated,interval_rmse,0.4483855898274462,0.3903539205283775,0.5064887409126629,0.0,Murcko scaffold,10000

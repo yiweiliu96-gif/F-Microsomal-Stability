@@ -1,0 +1,21 @@
+scope,n,n_scaffolds,baseline_label,candidate_label,metric,delta_candidate_minus_baseline,ci95_low,ci95_high,two_sided_p,bootstrap_unit,bootstrap_iterations
+fluorinated,557,504,structure-only,direct RLM-assisted,uncensored_rmse,-0.12351357799290241,-0.15368983841433237,-0.09211174417531268,0.0,Bemis-Murcko scaffold,10000
+fluorinated,557,504,structure-only,direct RLM-assisted,uncensored_mae,-0.10925807629140949,-0.1359380446691892,-0.08205742472394291,0.0,Bemis-Murcko scaffold,10000
+fluorinated,557,504,structure-only,direct RLM-assisted,uncensored_spearman,0.20898194040617057,0.14712402411793388,0.28049323370145096,0.0,Bemis-Murcko scaffold,10000
+fluorinated,557,504,structure-only,direct RLM-assisted,interval_rmse,-0.14529070194815596,-0.17111413248513305,-0.11804407093288076,0.0,Bemis-Murcko scaffold,10000
+fluorinated,557,504,structure-only,direct RLM-assisted,low_clearance_auc,0.09683219178082192,0.06501301194233682,0.13112661397759515,0.0,Bemis-Murcko scaffold,10000
+fluorinated,557,504,structure-only,RLM-anchored residual,uncensored_rmse,-0.1247792419018034,-0.15695141409629393,-0.09125874279170011,0.0,Bemis-Murcko scaffold,10000
+fluorinated,557,504,structure-only,RLM-anchored residual,uncensored_mae,-0.11047863226899812,-0.13847211772806484,-0.08119497068509138,0.0,Bemis-Murcko scaffold,10000
+fluorinated,557,504,structure-only,RLM-anchored residual,uncensored_spearman,0.2116459025082904,0.14907509600212587,0.28493143617528766,0.0,Bemis-Murcko scaffold,10000
+fluorinated,557,504,structure-only,RLM-anchored residual,interval_rmse,-0.14996183396473545,-0.17769403128765265,-0.12124617297650178,0.0,Bemis-Murcko scaffold,10000
+fluorinated,557,504,structure-only,RLM-anchored residual,low_clearance_auc,0.1006563926940639,0.06790273834243164,0.1358421952217234,0.0,Bemis-Murcko scaffold,10000
+nonfluorinated,2492,2188,structure-only,direct RLM-assisted,uncensored_rmse,-0.09305775956517498,-0.1084511256977457,-0.07734572119435426,0.0,Bemis-Murcko scaffold,10000
+nonfluorinated,2492,2188,structure-only,direct RLM-assisted,uncensored_mae,-0.08059873561998226,-0.09286692031097489,-0.06809735087852396,0.0,Bemis-Murcko scaffold,10000
+nonfluorinated,2492,2188,structure-only,direct RLM-assisted,uncensored_spearman,0.17106015110892914,0.14258758971834712,0.20044665054183314,0.0,Bemis-Murcko scaffold,10000
+nonfluorinated,2492,2188,structure-only,direct RLM-assisted,interval_rmse,-0.0954389221283245,-0.10868271672865676,-0.08240997784535113,0.0,Bemis-Murcko scaffold,10000
+nonfluorinated,2492,2188,structure-only,direct RLM-assisted,low_clearance_auc,0.05922519249875802,0.04666295162843247,0.07225234268771175,0.0,Bemis-Murcko scaffold,10000
+nonfluorinated,2492,2188,structure-only,RLM-anchored residual,uncensored_rmse,-0.08671723999887643,-0.10291365544155834,-0.07002095776482584,0.0,Bemis-Murcko scaffold,10000
+nonfluorinated,2492,2188,structure-only,RLM-anchored residual,uncensored_mae,-0.07636529170510625,-0.08938482927153107,-0.06339139369474406,0.0,Bemis-Murcko scaffold,10000
+nonfluorinated,2492,2188,structure-only,RLM-anchored residual,uncensored_spearman,0.16915130460699412,0.1398345086540561,0.19896691249642465,0.0,Bemis-Murcko scaffold,10000
+nonfluorinated,2492,2188,structure-only,RLM-anchored residual,interval_rmse,-0.0907331744432443,-0.10528075614220143,-0.07631031804646048,0.0,Bemis-Murcko scaffold,10000
+nonfluorinated,2492,2188,structure-only,RLM-anchored residual,low_clearance_auc,0.05879750372578241,0.04560463156302929,0.0722402227241297,0.0,Bemis-Murcko scaffold,10000

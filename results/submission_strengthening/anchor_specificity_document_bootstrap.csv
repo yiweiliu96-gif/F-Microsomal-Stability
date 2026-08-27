@@ -1,0 +1,3 @@
+comparison,n,n_documents,metric,candidate_minus_true_anchor,ci95_low,ci95_high,two_sided_p
+nearest training analogue minus same-compound anchor,598,174,rmse,0.6072207606608433,0.3491817783577467,0.8753552190718998,0.0
+nearest training analogue minus same-compound anchor,598,174,mae,0.4766107786242694,0.3297386850030769,0.6354042759671715,0.0
