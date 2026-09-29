@@ -1,8 +1,7 @@
 cff-version: 1.2.0
-message: "Please cite the accompanying manuscript and this archived release."
+message: "Please cite the accompanying manuscript and this software and data package."
 title: "Assay-matched fluorination effects and RLM-anchored HLM prediction"
 type: software
-version: 1.0.0
 date-released: 2026-08-26
 authors:
   - family-names: Liu
@@ -23,7 +22,6 @@ authors:
     given-names: Jingjing
 license: MIT
 repository-code: "https://github.com/yiweiliu96-gif/F-Microsomal-Stability"
-repository-artifact: "https://github.com/yiweiliu96-gif/F-Microsomal-Stability/tree/v1.0.0"
 keywords:
   - microsomal intrinsic clearance
   - fluorinated compounds

@@ -28,7 +28,7 @@ The model predicts an in vitro continuous HLM endpoint. It does not predict huma
 - `models/`: frozen LightGBM model bundle and model card.
 - `scripts/`: data preparation, model fitting, internal/external evaluation, and matched-pair audit scripts.
 - `src/fms/`: shared molecular-feature, splitting, statistics, and audit utilities.
-- `verify_release.py`: dependency-light integrity check for the release.
+- `verify_release.py`: dependency-light integrity check for the repository.
 
 See `data/README.md`, `models/MODEL_CARD.md`, and `DATA_AND_REVIEW_NOTICE.md` before reuse.
 
@@ -74,13 +74,10 @@ Algorithm and graph-network analyses were robustness controls and were not used 
 
 ## Data provenance and licensing
 
-The study reuses public data reported by Fang et al. and ChEMBL35 records curated through OpenADMET. Source publications, database identifiers, versions, and access conditions are documented in `DATA_AND_REVIEW_NOTICE.md`. The MIT licence applies to repository software only. Third-party and derived data retain their original provenance and applicable source terms.
+The study reuses public data reported by Fang et al. and ChEMBL35 records curated through OpenADMET. Source publications, database identifiers, and access conditions are documented in `DATA_AND_REVIEW_NOTICE.md`. The MIT licence applies to repository software only. Third-party and derived data retain their original provenance and applicable source terms.
 
 Publisher PDFs and Supporting Information files are intentionally excluded.
 
-## Citation and versioned release
+## Citation
 
-Use `CITATION.cff` to cite this software and data package. The public repository is available at
-<https://github.com/yiweiliu96-gif/F-Microsomal-Stability>, and the exact manuscript-associated
-snapshot is tagged as `v1.0.0`. A repository DOI will be added if the tagged release is archived in
-Zenodo; no DOI is claimed in the current release.
+Use `CITATION.cff` to cite this software and data package.
