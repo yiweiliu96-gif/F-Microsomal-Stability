@@ -2,7 +2,7 @@
 
 This repository accompanies the manuscript:
 
-> Assay-Matched Fluorination Reveals Species-Discordant Clearance Changes and Enables RLM-Anchored HLM Prediction
+> Species-Discordant Fluorination Effects and RLM-Anchored Prediction of Human Microsomal Clearance
 
 The study asks two linked medicinal-chemistry questions:
 
@@ -14,7 +14,7 @@ The model predicts an in vitro continuous HLM endpoint. It does not predict huma
 ## Frozen findings
 
 - Same-assay fluorination pairs: 476 HLM pairs and 209 RLM pairs.
-- Cross-species exact edits: 97 manually verified pairs from 42 documents; Spearman correlation between Delta HLM and Delta RLM = 0.431; direction reversal = 38.1%.
+- Cross-species exact edits: 97 pairs from 42 documents; Spearman correlation between Delta HLM and Delta RLM = 0.431; sign discordance = 38.1% (30 true reversals and 7 one-sided zero changes).
 - Internal fluorinated scaffold validation: structure-only interval RMSE = 0.453; RLM-anchored residual interval RMSE = 0.303.
 - Strict external fluorinated set: structure-only RMSE = 1.003; linear RLM-to-HLM RMSE = 0.705; RLM-anchored residual RMSE = 0.615.
 - Residual versus linear RLM translation: RMSE difference = -0.090 (document-bootstrap 95% CI, -0.177 to -0.007).
