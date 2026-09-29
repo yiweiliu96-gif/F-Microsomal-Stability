@@ -30,7 +30,7 @@ The model predicts an in vitro continuous HLM endpoint. It does not predict huma
 - `src/fms/`: shared molecular-feature, splitting, statistics, and audit utilities.
 - `verify_release.py`: dependency-light integrity check for the repository.
 
-See `data/README.md`, `models/MODEL_CARD.md`, and `DATA_AND_REVIEW_NOTICE.md` before reuse.
+See `data/README.md` and `models/MODEL_CARD.md` before reuse.
 
 ## Quick integrity check
 
@@ -74,7 +74,7 @@ Algorithm and graph-network analyses were robustness controls and were not used 
 
 ## Data provenance and licensing
 
-The study reuses public data reported by Fang et al. and ChEMBL35 records curated through OpenADMET. Source publications, database identifiers, and access conditions are documented in `DATA_AND_REVIEW_NOTICE.md`. The MIT licence applies to repository software only. Third-party and derived data retain their original provenance and applicable source terms.
+The study reuses public data reported by Fang et al. and ChEMBL35 records curated through OpenADMET. Source publications, database identifiers, and access conditions are documented in the manuscript and `data/README.md`. The MIT licence applies to repository software only. Third-party and derived data retain their original provenance and applicable source terms.
 
 Publisher PDFs and Supporting Information files are intentionally excluded.
 

@@ -20,7 +20,6 @@ required = [
     "README.md",
     "CITATION.cff",
     "LICENSE",
-    "DATA_AND_REVIEW_NOTICE.md",
     "data/README.md",
     "models/MODEL_CARD.md",
     "models/lgbm_models.joblib",
