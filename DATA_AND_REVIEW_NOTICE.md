@@ -14,7 +14,6 @@ The original publications and database records remain authoritative. Repository 
 
 - `data/development/` contains source-derived public split tables used to reconstruct model-development compounds.
 - `data/derived/` contains standardized structures, calculated molecular annotations, pair definitions, endpoint-semantics classifications, source identifiers, model predictions, and statistical-analysis inputs created for this study.
-- `results/` contains computed summaries and uncertainty estimates.
 - `models/` contains fitted model objects generated in this study.
 
 No new in vitro or in vivo measurements were generated.
