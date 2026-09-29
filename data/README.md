@@ -4,7 +4,7 @@
 
 HLM and RLM values are log10 intrinsic-clearance measurements. The source unit used by the public industrial paired data is mL min-1 kg-1. ChEMBL-derived records are retained only under the endpoint and unit rules documented in the manuscript and scripts. A negative fluorination-pair delta means lower clearance after fluorination.
 
-## Development data
+## Development data (training/test sets)
 
 - `development/ADME_HLM_train.csv` and `development/ADME_HLM_test.csv`: structure and HLM activity split files from the cited public paired ADME release.
 - `development/ADME_RLM_train.csv` and `development/ADME_RLM_test.csv`: corresponding RLM split files.
@@ -14,14 +14,7 @@ Columns: `smiles` is the source molecular structure string; `activity` is log10 
 ## Principal derived files
 
 - `derived/biogen_paired_modelling_table.csv`: standardized paired modeling table, scaffold assignments, censoring indicators, fluorine annotations, and continuous HLM/RLM endpoints.
-- `derived/same_assay_species_fluorination_pairs_primary.csv`: single-species exact fluorination pairs selected under same-assay endpoint and unit rules.
-- `derived/same_assay_species_effect_summary.csv`: document-clustered effect summaries and multiplicity-adjusted tests.
-- `derived/cross_species_assay_matched_pairs.csv`: 97 exact edits with independently assay-matched HLM and RLM measurements.
-- `derived/cross_species_manual_review_queue.csv`: row-level manual-review status and notes for the retained cross-species pairs.
-- `derived/cross_species_source_row_audit.csv`: reconstructed source-row endpoint, unit, assay, document, species, and aggregation checks.
-- `derived/cross_species_assay_matched_summary.csv`: cross-species effect concordance and uncertainty estimates.
-- `derived/external_endpoint_semantics_audit.csv`: endpoint-class, unit, stereochemistry, document, and inclusion fields for external candidates.
-- `derived/external_predictions.csv`: molecule-level observed endpoints and predictions from all manuscript-facing baselines and ablations.
+- `derived/external_predictions.csv`: external validation compounds with observed HLM/RLM endpoints and predictions from the manuscript-facing baselines and ablations.
 
 ## Key fields
 

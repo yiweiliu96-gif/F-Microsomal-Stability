@@ -20,19 +20,17 @@ The model predicts an in vitro continuous HLM endpoint. It does not predict huma
 - Residual versus linear RLM translation: RMSE difference = -0.090 (document-bootstrap 95% CI, -0.177 to -0.007).
 - Handcrafted fluorine descriptors and neural representations did not improve overall accuracy. Fluorine annotations are retained for subgroup and applicability-domain analysis.
 
-## Repository map
+## Repository contents
 
-- `data/development/`: public HLM and RLM split files used to reconstruct paired model-development compounds.
-- `data/derived/`: standardized modeling tables, assay-matched fluorination pairs, source-row audits, manual review status, endpoint-semantics audits, and molecule-level predictions.
+- `data/development/`: public HLM and RLM training/test split files used to reconstruct paired model-development compounds.
+- `data/derived/biogen_paired_modelling_table.csv`: standardized paired modeling table (structures, scaffold assignments, censoring indicators, fluorine annotations, continuous HLM/RLM endpoints).
+- `data/derived/external_predictions.csv`: external validation compounds with observed HLM/RLM endpoints and model predictions.
 - `models/`: frozen LightGBM model bundle and model card.
-- `results/`: machine-readable internal, external, algorithm, bootstrap, motif, falsification, and uncertainty results.
-- `scripts/`: data preparation, model fitting, external evaluation, matched-pair audit, sensitivity, and figure scripts.
+- `scripts/`: data preparation, model fitting, internal/external evaluation, and matched-pair audit scripts.
 - `src/fms/`: shared molecular-feature, splitting, statistics, and audit utilities.
-- `figures/`: editable SVG versions of the five main-text figures and Supplementary Figure S1.
-- `docs/`: data-availability and reproducibility notes.
-- `verify_release.py`: dependency-light integrity and claim audit for the release.
+- `verify_release.py`: dependency-light integrity check for the release.
 
-See `data/README.md`, `models/MODEL_CARD.md`, `results/README.md`, and `DATA_AND_REVIEW_NOTICE.md` before reuse.
+See `data/README.md`, `models/MODEL_CARD.md`, and `DATA_AND_REVIEW_NOTICE.md` before reuse.
 
 ## Quick integrity check
 
@@ -40,7 +38,7 @@ See `data/README.md`, `models/MODEL_CARD.md`, `results/README.md`, and `DATA_AND
 python verify_release.py
 ```
 
-The check verifies required files, manually reviewed pair counts, principal manuscript-facing metrics, prohibited publisher files, local absolute paths, and the frozen model checksum.
+The check verifies required files, the frozen model checksum, absence of prohibited publisher files, and absence of local absolute paths.
 
 ## Environment
 
